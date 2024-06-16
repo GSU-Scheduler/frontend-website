@@ -1,0 +1,26 @@
+/* Using a css stylesheet for CSS properties unavailable in Tailwind */
+
+.calendar-container {
+    grid-template-columns: 75px auto;
+    grid-template-rows: auto;
+    grid-template-areas: ". header" "timeslots-container main";
+}
+
+.header {
+    grid-area: header;
+}
+
+.timeslots-container {
+    grid-area: timeslots-container;
+}
+
+.event-calendar {
+    grid-area: main;
+}
+
+
+
+
+
+
+
